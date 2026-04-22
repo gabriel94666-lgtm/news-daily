@@ -1,0 +1,13 @@
+{
+  "eval_id": 0,
+  "eval_name": "general-daily-briefing",
+  "prompt": "给我今天的新闻简报",
+  "assertions": [
+    {"id": "has_sections", "description": "Output contains at least 3 topic sections (国际新闻, 科技/AI, 企业动态, etc.)"},
+    {"id": "three_sentence_format", "description": "Each news item has exactly 3 sentences followed by a summary paragraph"},
+    {"id": "has_sources", "description": "Output includes source attribution for news items"},
+    {"id": "chinese_output", "description": "Output is primarily in simplified Chinese"},
+    {"id": "no_fabrication", "description": "News items reference real, verifiable events (not invented content)"},
+    {"id": "has_company_news", "description": "Output includes news about at least one of: ByteDance, Tencent, Xiaohongshu, NVIDIA, Microsoft, Meta, Google, Apple"}
+  ]
+}

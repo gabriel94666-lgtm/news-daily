@@ -1,0 +1,23 @@
+{
+  "skill_name": "news-briefing",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "给我今天的新闻简报",
+      "expected_output": "A well-structured daily briefing in Chinese covering international news, tech/AI, Chinese internet companies (ByteDance, Tencent, Xiaohongshu), overseas tech companies (NVIDIA, Microsoft, Meta, Google, Apple), and finance. Each news item has 3 sentences + a summary paragraph. Content is categorized by topic with emoji headers.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "今天字节跳动和英伟达有什么新动向？顺便给我看看今天的国际大事",
+      "expected_output": "A briefing focusing on ByteDance/TikTok and NVIDIA news, plus international headlines. Should pull actual recent news, not fabricate. Should include sources.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "morning briefing please, focus on AI and China tech news",
+      "expected_output": "A briefing focused on AI developments and Chinese tech company news, in Chinese, with proper categorization and 3-sentence format per item.",
+      "files": []
+    }
+  ]
+}
